@@ -52,10 +52,13 @@ nav {
 
 .nav__container {
     width: 100%;
-    max-width: 1200px;
     padding: 0 36px 100px;
     display: flex;
     justify-content: space-between;
+    }
+
+    .nav__logo{
+        display: flex;
     }
 
 .row__nav--row {
@@ -1022,8 +1025,6 @@ footer {
     justify-content: flex-start;
     align-items: center;
     color: white;
-    margin-right: 40%;
-    width: 10%;
     font-weight: 900;
     font-size: 20px;
 }
@@ -1031,12 +1032,6 @@ footer {
 .footer__copyright {
     color: white;
     display:flex;
-    justify-content:flex-start;
-   align-items: center;
-   
-    
-    
-
 }
 
 .footer__socials {
@@ -1058,6 +1053,10 @@ footer {
     cursor: pointer;
     transition: all 300ms;
    
+}
+
+.footer__title{
+    display: flex;
 }
 
 
